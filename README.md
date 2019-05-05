@@ -2,6 +2,8 @@
 
 # unexpected-go
 
+Source code for [unexpected-go.com](https://unexpected-go.com)
+
 This is a small collection of unexpected [golang](https://golang.org/) behaviors, 
 none of them are (probably) bugs, they're just the way golang works. 
 
