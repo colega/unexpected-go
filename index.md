@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Unexpected Go
 tagline: Golang code with unexpected behaviors
 description: Showcase of unexpected golang behaviors
