@@ -4,6 +4,8 @@ tagline: Golang code with unexpected behaviors
 description: Showcase of unexpected golang behaviors
 ---
 
+![Unexpected gopher](gopher.png)
+
 This small site, still under construction, is oriented to developers 
 learning [golang](https://golang.org) that want to see the _unexpected_, 
 at least for a newcomer, behaviors in the language.
