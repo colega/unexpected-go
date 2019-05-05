@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Goroutines in loops  Unexpected Go"
 tagline: Golang code with unexpected behaviors
 description: Unexpected golang behavior when running goroutines with values from a loop
