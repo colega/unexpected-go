@@ -15,8 +15,14 @@ This examples expect that reader is familiar with the language.
 If you're not familiar with it, you should complete the [Go by Example](https://gobyexample.com/)
 tutorial.
 
+# Examples 
 The WIP list of examples is:
  - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [There's no `Min(int, int)` int function](theres-no-min-function.html)
  - [`nil` errors that are non-nil `error`s](nil-errors-that-are-non-nil-errors.html)
  - [`time.RFC3339` constant is not a valid `RFC3339` timestmap](time-rfc3339-is-not-a-valid-rfc3339.html)
+
+# Disclaimer
+This examples are not trying to prove that golang is _wrong_, it's just sharing 
+stuff that someone who has just started learning the language doesn't expect.
+
