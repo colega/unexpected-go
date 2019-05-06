@@ -6,10 +6,10 @@ description: Unexpected golang behavior when running goroutines with values from
 
 # Introdution
 
-This is actually documented in [CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes) 
+This is actually documented in [CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes)
 wiki page of the official golang's GitHub repository (notice, this is the only common mistake documented
 there as this page is being written) but since its visibility is not good enough, it's always a
-good start. 
+good start.
 
 # Code
 
@@ -31,7 +31,6 @@ func main() {
 	fmt.Println(<-ch)
 	fmt.Println(<-ch)
 }
-
 ```
 
 One may expect this to print:
@@ -49,11 +48,27 @@ But actually this code is not deterministic, and in most cases will just print
 
 # Why?
 
-When iterating using `i, v := range whatever`, the `i` and `v` variables 
+When iterating using `i, v := range whatever`, the `i` and `v` variables
 are defined only once for the scope, and then their values are overwritten.
-Since the goroutines reference the same variable all the time, but they are 
-_probably_ executed after the `for` loop is finished, they all access the same 
+Since the goroutines reference the same variable all the time, but they are
+_probably_ executed after the `for` loop is finished, they all access the same
 last value of it: `1`.
+
+You can check this by [printing the pointer address](https://play.golang.org/p/b-WqnxcfeYn), which never changes:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	for _, v := range []int{0, 1} {
+	    fmt.Printf("%p\n", &v)
+	}
+}
+```
+
+
 
 # Related
 
