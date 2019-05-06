@@ -18,3 +18,4 @@ tutorial.
 The WIP list of examples is:
  - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [There's no `Min(int, int)` int function](theres-no-min-function.html)
+ - [`nil` errors that are non-nil `error`s](nil-errors-that-are-non-nil-errors.html)
