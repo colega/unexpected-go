@@ -22,5 +22,5 @@ TL;DR
 ```sh
 ruby --version # make sure it's >2.1.0 
 bundle install
-bundle exec jekyll serve -d /tmp/unexpected-go_site/
+bundle exec jekyll serve 
 ```
