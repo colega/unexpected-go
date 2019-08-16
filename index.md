@@ -4,13 +4,12 @@ tagline: Golang code with unexpected behaviors
 description: Showcase of unexpected golang behaviors
 ---
 
-This small site, is oriented to developers learning [golang](https://golang.org)
+This small site is oriented to developers learning [golang](https://golang.org)
 that want to see the _unexpected_, at least for a newcomer, behaviors in the
 language.
 
-This examples expect that reader is familiar with the language. 
-
-If you're not familiar with it, you should complete the [Go by
+This examples expect that reader is familiar with the language, if you're not
+familiar with it, you should complete the [Go by
 Example](https://gobyexample.com/) tutorial.
 
 # Examples 
@@ -31,7 +30,7 @@ The WIP list of examples is:
    
 # Disclaimer 
    
-   This examples are not trying to prove that golang is _wrong_, it's just
-   sharing stuff that someone who has just started learning the language doesn't
-   expect.
+This examples are not trying to prove that golang is _wrong_, it's just
+sharing stuff that someone who has just started learning the language doesn't
+expect.
 
