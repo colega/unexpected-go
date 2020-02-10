@@ -80,6 +80,5 @@ func main() {
 }
 ```
 
-Since printer already has a type, we can already call pointer receiver functions on it, 
-although it's value is nil. Obviously you [can't do that](https://play.golang.org/p/A-A1aDZejR9) 
-if you don't specify the type, because there's nowhere to call.
+Since printer already has a type, we can already call pointer receiver functions on it, although it's value is nil.
+Obviously you [can't do that](https://play.golang.org/p/A-A1aDZejR9) if you don't specify the type, because there's nowhere to call.

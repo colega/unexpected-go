@@ -6,13 +6,11 @@ description: There's no min(int, int) int, or max function in math
 
 # TL;DR
 
-Just as easy as that, if you check the [math package](https://golang.org/pkg/math/)
-you won't find a `func Min(a, b int) int`, neither a `Max` for ints, or for int64, etc.
+Just as easy as that, if you check the [math package](https://golang.org/pkg/math/) you won't find a `func Min(a, b int) int`, neither a `Max` for ints, or for int64, etc.
 
 # Solutions
 
-There's one for floats, and you'll have to deal with that, 
-either [casting your ints to floats](https://play.golang.org/p/78mrx3gqttq):
+There's one for floats, and you'll have to deal with that, either [casting your ints to floats](https://play.golang.org/p/78mrx3gqttq):
 
 ```go 
 package main
@@ -32,6 +30,7 @@ func main() {
 ```
 
 or defining [your own min function everywhere](https://play.golang.org/p/JppKTRa34pF):
+
 ```go
 package main
 
