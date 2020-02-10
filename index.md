@@ -17,15 +17,12 @@ Example](https://gobyexample.com/) tutorial.
 The WIP list of examples is:
  - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [There's no `Min(int, int)` int function](theres-no-min-function.html)
- - [`nil` errors that are non-nil
-   `error`s](nil-errors-that-are-non-nil-errors.html)
- - [`time.RFC3339` constant is not a valid `RFC3339`
-   timestmap](time-rfc3339-is-not-a-valid-rfc3339.html)
- - [`os.Stdout` changes after `init()` in testable
-   examples](os-stdout-changes-after-init-in-examples.html)
+ - [`nil` errors that are non-nil `error`s](nil-errors-that-are-non-nil-errors.html)
+ - [`time.RFC3339` constant is not a valid `RFC3339` timestamp](time-rfc3339-is-not-a-valid-rfc3339.html)
+ - [`os.Stdout` changes after `init()` in testable examples](os-stdout-changes-after-init-in-examples.html)
+ - [`Write([]byte) (int, error)` should not retain the slice](write-should-not-retain-the-slice.html)
 
 # Grab some popcorn
-
 ![Unexpected gopher](gopher.png)
    
 # Disclaimer 
