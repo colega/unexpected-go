@@ -21,6 +21,7 @@ The WIP list of examples is:
  - [`time.RFC3339` constant is not a valid `RFC3339` timestamp](time-rfc3339-is-not-a-valid-rfc3339.html)
  - [`os.Stdout` changes after `init()` in testable examples](os-stdout-changes-after-init-in-examples.html)
  - [`Write([]byte) (int, error)` should not retain the slice](write-should-not-retain-the-slice.html)
+ - [`if err := recover(); err != nil` does not recover from all panics](recovering-from-nil-panics.html)
 
 # Grab some popcorn
 ![Unexpected gopher](gopher.png)
