@@ -13,7 +13,6 @@ and others are just _funny_.
 **Notice**: These examples are not trying to prove that golang is _wrong_, or that it
 doesn't work properly. If you think (and you're probably right) that a behavior
 is justified, please send us a PR updating the example with more information.
-a
 # Local development
 See [github pages help pages](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) 
 for more details.
