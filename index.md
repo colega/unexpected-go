@@ -28,7 +28,7 @@ The WIP list of examples is (with no specific order):
    
 # Disclaimer 
    
-This examples are not trying to prove that golang is _wrong_, it's just
+These examples are not trying to prove that golang is _wrong_, it's just
 sharing stuff that someone who has just started learning the language doesn't
 expect.
 
