@@ -23,6 +23,7 @@ The WIP list of examples is (with no specific order):
  - [There's no `Min(int, int)` int function](theres-no-min-function.html)
  - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [`json.Unmarhsal` mreges structs and slices, but not map values](json-unmarshal-merges-structs-but-not-map-values.html)
+ - [`defer` does not wait for parallelized tests](defer-does-not-wait-for-parallelized-tests.html)
 
 # Grab some popcorn
 ![Unexpected gopher](gopher.png)
