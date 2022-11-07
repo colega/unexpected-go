@@ -5,7 +5,7 @@ description: Benchmark running time can be optimized by wrapping them into trivi
 
 # Introduction
 
-Golang language has [a cool feature that allows you writing Benchmarks](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) with just the standard toolkit.
+Go language has [a cool feature that allows you writing Benchmarks](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) with just the standard toolkit.
 
 For example, you can easily benchmark how long does the `time.Now()` call take by writing:
 
@@ -88,7 +88,7 @@ func BenchmarkTest(b *testing.B) {
 And see how the input logs that multiple times before even reaching the results of the first run:
 
 ```
-go test -run=X -bench=. -count=5 -cpu=1 .
+$ go test -run=X -bench=. -count=5 -cpu=1 .
 goos: linux
 goarch: amd64
 pkg: github.com/grafana/mimir
@@ -131,7 +131,7 @@ func BenchmarkTest(b *testing.B) {
 This allows Go's testing framework to re-run just the benchmark itself, running the setup only once:
 
 ```
-go test -v -run=X -bench=. -count=5 -cpu=1 .
+$ go test -v -run=X -bench=. -count=5 -cpu=1 .
 goos: linux
 goarch: amd64
 pkg: github.com/grafana/mimir
