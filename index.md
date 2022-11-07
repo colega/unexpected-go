@@ -24,6 +24,7 @@ The WIP list of examples is (with no specific order):
  - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [`json.Unmarhsal` mreges structs and slices, but not map values](json-unmarshal-merges-structs-but-not-map-values.html)
  - [`defer` does not wait for parallelized tests](defer-does-not-wait-for-parallelized-tests.html)
+ - [Benchmarks with very long setup run faster in sub-benchmarks](benchmarks-with-very-long-setup-run-faster-in-sub-benchmarks.html)
 
 # Grab some popcorn
 ![Unexpected gopher](gopher.png)
