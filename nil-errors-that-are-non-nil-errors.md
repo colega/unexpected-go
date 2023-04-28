@@ -3,7 +3,7 @@ title: Nil errors that are non-nil errors
 description: Difference between nil interface value and interface holding a nil value
 ---
 
-# Introduction
+# Nil errors that are non-nil errors
 
 Consider [the following code](https://play.golang.org/p/j_W4udUC72o):
 

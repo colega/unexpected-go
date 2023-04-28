@@ -1,9 +1,9 @@
 ---
-title: time.RFC3339 is not a valid time.RFC3339 format
+title: `time.RFC3339` is not a valid `time.RFC3339` format
 description: Just a stupid curiosity that will never affect your productivity
 ----
 
-# Introduction
+# `time.RFC3339` is not a valid `time.RFC3339` format
 
 You may know that there's a `time.Parse(layout, value string) (time.Time, error)` function and that there are some pre-defined layouts in the `time` package like `time.RFC3339`, for instance.
 

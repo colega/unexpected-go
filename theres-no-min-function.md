@@ -4,7 +4,7 @@ tagline: Unexpected Golang's stuff
 description: There's no min(int, int) int, or max function in math
 ---
 
-# TL;DR
+# TL;DR: There's no `min(int, int) int` function in golang
 
 Just as easy as that, if you check the [math package](https://golang.org/pkg/math/) you won't find a `func Min(a, b int) int`, neither a `Max` for ints, or for int64, etc.
 

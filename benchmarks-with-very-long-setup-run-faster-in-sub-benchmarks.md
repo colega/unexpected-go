@@ -3,7 +3,7 @@ title: Benchmarks with very long setup run faster in sub-benchmarks
 description: Benchmark running time can be optimized by wrapping them into trivial sub-benchmarks.
 --- 
 
-# Introduction
+# Benchmarks with very long setup run faster in sub-benchmarks
 
 Go language has [a cool feature that allows you writing Benchmarks](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) with just the standard toolkit.
 

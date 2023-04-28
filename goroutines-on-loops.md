@@ -1,10 +1,10 @@
 ---
-title: "Goroutines in loops  Unexpected Go"
+title: Goroutines in loops may not behave as expected
 tagline: Golang code with unexpected behaviors
 description: Unexpected golang behavior when running goroutines with values from a loop
 ---
 
-# Introdution
+# Goroutines in loops may not behave as expected
 
 This is actually documented in [CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes) wiki page of the official golang's GitHub repository (notice, this is the only common mistake documented there as this page is being written) but since its visibility is not good enough, it's always a good start.
 

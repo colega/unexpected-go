@@ -1,10 +1,10 @@
 ---
-title: "Write should not retain the slice"
+title: `io.Writer`'s `Write` should not retain the slice
 tagline: Golang code with unexpected behaviors
 description: Unexpected golang behavior when a Writer stores the reference to the provided bytes.
 ---
 
-# Introduction
+# `io.Writer`'s `Write` should not retain the slice
 
 One should always pay special attention about the lifecycle of the data structures when they're shared between different entities, i.e., they're pointers.
 Usually when the referenced value can change, some explicit concurrency mechanisms are offered, or the lifecycle is clearly documented.
