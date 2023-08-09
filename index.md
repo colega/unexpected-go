@@ -20,7 +20,7 @@ The WIP list of examples is (with no specific order):
  - [`os.Stdout` changes after `init()` in testable examples](os-stdout-changes-after-init-in-examples.html)
  - [`Write([]byte) (int, error)` should not retain the slice](write-should-not-retain-the-slice.html)
  - [`if err := recover(); err != nil` does not recover from all panics](recovering-from-nil-panics.html)
- - [There's no `Min(int, int)` int function](theres-no-min-function.html)
+ - [There's no `math.Min(int, int)` int function](theres-no-min-function.html)
  - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [`json.Unmarhsal` mreges structs and slices, but not map values](json-unmarshal-merges-structs-but-not-map-values.html)
  - [`defer` does not wait for parallelized tests](defer-does-not-wait-for-parallelized-tests.html)
