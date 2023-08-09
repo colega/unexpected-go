@@ -1,14 +1,16 @@
 ---
-title: There's no min(int, int) int function
+title: There was no min(int, int) int function before go1.21
 tagline: Unexpected Golang's stuff
-description: There's no min(int, int) int, or max function in math
+description: There is no min(int, int) int, or max function in math, and there was no builtin function before go1.21
 ---
 
 # TL;DR: There's no `min(int, int) int` function in golang
 
 Just as easy as that, if you check the [math package](https://golang.org/pkg/math/) you won't find a `func Min(a, b int) int`, neither a `Max` for ints, or for int64, etc.
 
-# Why?
+However, this isn't true anymore [since go1.21](https://go.dev/doc/go1.21) that added [min and max builtin functions](https://tip.golang.org/ref/spec#Min_and_max).
+
+# What happened before?
 
 [Go does not support overloading of methods and operators](https://golang.org/doc/faq#overloading). 
 In many other languages you can define two functions as: `min(a, b int)` and `min(a, b float64)` but if you try this in go your program won't compile. 
