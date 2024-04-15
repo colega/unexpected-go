@@ -1,12 +1,14 @@
 ---
 title: Goroutines in loops may not behave as expected
 tagline: Golang code with unexpected behaviors
-description: Unexpected golang behavior when running goroutines with values from a loop
+description: Unexpected golang behavior when running goroutines with values from a loop before go1.22
 ---
 
-# Goroutines in loops may not behave as expected
+# Goroutines in loops may not behave as expected before Go 1.22
 
-This is actually documented in [CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes) wiki page of the official golang's GitHub repository (notice, this is the only common mistake documented there as this page is being written) but since its visibility is not good enough, it's always a good start.
+Update: [this has been **fixed** in Go 1.22](https://go.dev/blog/loopvar-preview) and the following contents is left for historical reasons.
+
+This was actually documented in [CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes) wiki page of the official golang's GitHub repository (notice, this is the only common mistake documented there as this page is being written) but since its visibility is not good enough, it's always a good start.
 
 # Code
 
@@ -62,7 +64,6 @@ func main() {
 	}
 }
 ```
-
 
 # Related
 

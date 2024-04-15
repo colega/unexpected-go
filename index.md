@@ -4,13 +4,9 @@ tagline: Golang code with unexpected behaviors
 description: Showcase of unexpected golang behaviors
 ---
 
-This small site is oriented to developers learning [golang](https://golang.org)
-that want to see the _unexpected_, at least for a newcomer, behaviors in the
-language.
+This small site is oriented to developers learning [golang](https://golang.org) that want to see the _unexpected_, at least for a newcomer, behaviors in the language.
 
-This examples expect that reader is familiar with the language, if you're not
-familiar with it, you should complete the [Go by
-Example](https://gobyexample.com/) tutorial.
+This examples expect that reader is familiar with the language, if you're not familiar with it, you should complete the [Go by Example](https://gobyexample.com/) tutorial.
 
 # Examples 
 
@@ -20,18 +16,22 @@ The WIP list of examples is (with no specific order):
  - [`os.Stdout` changes after `init()` in testable examples](os-stdout-changes-after-init-in-examples.html)
  - [`Write([]byte) (int, error)` should not retain the slice](write-should-not-retain-the-slice.html)
  - [`if err := recover(); err != nil` does not recover from all panics](recovering-from-nil-panics.html)
- - [There's no `math.Min(int, int)` int function](theres-no-min-function.html)
- - [Goroutines on `for` loop values](goroutines-on-loops.html)
  - [`json.Unmarhsal` mreges structs and slices, but not map values](json-unmarshal-merges-structs-but-not-map-values.html)
  - [`defer` does not wait for parallelized tests](defer-does-not-wait-for-parallelized-tests.html)
  - [Benchmarks with very long setup run faster in sub-benchmarks](benchmarks-with-very-long-setup-run-faster-in-sub-benchmarks.html)
 
 # Grab some popcorn
+
 ![Unexpected gopher](gopher.png)
    
 # Disclaimer 
    
-This examples are not trying to prove that golang is _wrong_, it's just
-sharing stuff that someone who has just started learning the language doesn't
-expect.
+This examples are not trying to prove that golang is _wrong_, it's just sharing stuff that someone who has just started learning the language doesn't expect.
+
+# Outdated / fixed items
+
+These items have been updated, fixed or changed in the language, but are kept here for historical reasons:
+
+- [Outdated since 1.21: there's no `math.Min(int, int)` int function](theres-no-min-function.html)
+- [Outdated since 1.22: goroutines on `for` loop values](goroutines-on-loops.html)
 
