@@ -12,6 +12,7 @@ Some of these examples are useful to avoid potential bugs in your production cod
 # Local development
 See [github pages help pages](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) for more details.
 
+You'll need to update ruby first: https://jekyllrb.com/docs/installation/macos/
 TL;DR
 ```sh
 ruby --version # make sure it's >2.1.0 
