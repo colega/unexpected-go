@@ -3,7 +3,7 @@ title: Recovering from nil panics
 description: A panic value can be nil
 ---
 
-# Introduction
+# Recovering from nil panics 
 
 After finishing the Golang tutorial, one expects that this code will recover from any panic:
 

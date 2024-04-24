@@ -4,7 +4,7 @@ tagline: Unexpected Golang's stuff
 description: When calling `t.Parallel()` the inner tests may keep running even when the outer test function has finished.
 ---
 
-# Introduction
+# Defer does not wait for parallelized tests 
 
 Consider the following test:
 

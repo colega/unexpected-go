@@ -3,7 +3,7 @@ title: `encoding/json.Unmarshal` merges structs but not map values
 description: Golang package JSON does not merge map values when decoding.  
 ---
 
-# Introduction
+# `encoding/json.Unmarshal` merges structs but not map values
 
 Let's say we have a struct type with two fields
 

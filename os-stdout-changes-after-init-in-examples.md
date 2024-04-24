@@ -1,9 +1,9 @@
 ---
-title: os.Stdout changes after invoking init() in examples
+title: `os.Stdout` changes after invoking init() in examples
 description: Stdout value may be unexpected in the examples
 --- 
 
-# Introduction
+# `os.Stdout` changes after invoking init() in examples
 
 Golang language has a cool feature: [testable
 examples](https://blog.golang.org/examples), which basically runs your code as a
