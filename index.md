@@ -19,6 +19,8 @@ The WIP list of examples is (with no specific order):
  - [`json.Unmarhsal` merges structs and slices, but not map values](json-unmarshal-merges-structs-but-not-map-values.html)
  - [`defer` does not wait for parallelized tests](defer-does-not-wait-for-parallelized-tests.html)
  - [Benchmarks with very long setup run faster in sub-benchmarks](benchmarks-with-very-long-setup-run-faster-in-sub-benchmarks.html)
+ - [`clear()` built-in function removes map keys but keeps slice indexes](clear-removes-map-keys-but-keeps-slice-indexes.html)
+ - [You can't remove a `NaN` key from a map without clearing it](you-cant-remove-a-nan-key-from-a-map-without-clearing-it.html)
 
 # Grab some popcorn
 
