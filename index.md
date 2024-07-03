@@ -21,6 +21,7 @@ The WIP list of examples is (with no specific order):
  - [Benchmarks with very long setup run faster in sub-benchmarks](benchmarks-with-very-long-setup-run-faster-in-sub-benchmarks.html)
  - [`clear()` built-in function removes map keys but keeps slice indexes](clear-removes-map-keys-but-keeps-slice-indexes.html)
  - [You can't remove a `NaN` key from a map without clearing it](you-cant-remove-a-nan-key-from-a-map-without-clearing-it.html)
+ - [Generic type `T any` cannot be `nil`](generic-type-t-any-cannot-be-nil.html)
 
 # Grab some popcorn
 
