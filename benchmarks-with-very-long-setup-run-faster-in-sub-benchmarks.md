@@ -3,6 +3,10 @@ title: Benchmarks with very long setup run faster in sub-benchmarks
 description: Benchmark running time can be optimized by wrapping them into trivial sub-benchmarks.
 --- 
 
+# Update as of go1.24
+
+[Go 1.24](https://tip.golang.org/doc/go1.24#new-benchmark-function) now includes a new benchmark function `testing.B.Loop` that ensures that setup is only ran once for the entire benchmark.
+
 # Benchmarks with very long setup run faster in sub-benchmarks
 
 Go language has [a cool feature that allows you writing Benchmarks](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) with just the standard toolkit.
