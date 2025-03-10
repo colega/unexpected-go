@@ -99,7 +99,7 @@ ok  	github.com/cabify/product_go/testableexample	0.011s
 
 # Why? Isn't init() supposed to be called when the package is initialized?
 
-`init()` is actually called here, but golang's testimg framework changes the
+`init()` is actually called here, but golang's testing framework changes the
 value of os.Stdout after initializing the package:
 
 ```go
